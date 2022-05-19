@@ -19,6 +19,10 @@ public class MathUtilLive {
         System.out.println("expected: 5! = 120; actual:" + result);
 
         System.out.println("expected 6! = 720 actual: " + MathUtil.getFactorial(6));
+        //5/19/2022
         System.out.println("expected 0! = 1 actual: " + MathUtil.getFactorial(1));
+        
+        System.out.println("expected 3! = 6 actual: " + MathUtil.getFactorial(3));
+
     }
 }
